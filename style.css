@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
+
 body{
     background: #e9e9e9; 
     font-family: 'Montserrat', sans-serif;
@@ -50,7 +51,7 @@ body{
 }
 
 button {
-  font-size: 15px;
+    font-size: 15px;
 	font-weight: bold;
 	padding: 12px 45px;
 	border-radius: 30px;
@@ -96,3 +97,16 @@ button:active {
     display: none;
     padding: 12px 15px;
 }
+/*
+@media only screen and (min-width: 600px) {
+    #contenedor{
+        display: flex;
+        flex-direction: column;
+        flex-grow: 4;
+    }
+
+    #calculadora,#detalle{
+        display: flex;
+        flex-grow: 4;
+    }
+}*/
